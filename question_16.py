@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import math
 
 def model(y, t):
-    return (math.exp(t) + math.pow(t, 4) + math.sin(math.radians(t))) * t
+    return (math.exp(t) + math.pow(t, 4) + math.sin(t)) * t
 
 t0 = 0
 y0 = 1

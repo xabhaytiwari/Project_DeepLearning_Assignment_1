@@ -17,7 +17,7 @@ y[0] = y0
 
 for i in range(len(t) - 1):
     y[i + 1] = y[i] + h * model(y[i], t[i])
-print(y)
+
 
 plt.figure(figsize=(8, 6))
 plt.plot(t, y, 'r.--', label='Euler Approximation')
